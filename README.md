@@ -1,5 +1,7 @@
 # portcheck
 
+[![CI](https://github.com/matthews-wong/devops-ci-workflow-3/actions/workflows/ci.yml/badge.svg)](https://github.com/matthews-wong/devops-ci-workflow-3/actions/workflows/ci.yml)
+
 A tiny, dependency-free CLI that checks whether one or more TCP ports are
 reachable. Useful as a pre-deploy smoke check: confirm a database, cache, or
 upstream service is actually accepting connections before rolling out
