@@ -1,0 +1,17 @@
+{
+  "name": "portcheck",
+  "version": "1.0.0",
+  "description": "Dependency-free TCP port reachability checker",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "portcheck": "src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  }
+}
