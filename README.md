@@ -37,3 +37,13 @@ npm test
 
 Tests spin up local TCP listeners on ephemeral ports and assert both the
 reachable and unreachable paths, so they don't depend on network access.
+
+## Validation
+
+```sh
+./validate.sh
+```
+
+Runs the same steps as CI locally: install, syntax check, tests, an
+`npm audit` gate, and `actionlint` against the workflow file. It downloads
+`actionlint` on first run if it isn't already on `PATH`.
